@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/b1">
+
+    <Button
+        android:background="@drawable/btn1"
+        android:id="@+id/here"
+        android:text="@string/btn1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_height="75dp"
+        android:layout_width="80dp"
+        android:layout_marginBottom="47dp"
+        android:layout_marginLeft="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+</RelativeLayout>

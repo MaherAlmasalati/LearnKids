@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lwp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.learnkids.LWP"
+    android:background="@drawable/letter"
+    android:layoutDirection="rtl">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/home"
+        android:id="@+id/homep"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:src="@drawable/show" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:src="@drawable/next"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="70dp"
+            android:id="@+id/Next"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layoutDirection="rtl">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:id="@+id/let"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="23dp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:id="@+id/wor"
+            android:layout_marginStart="46dp"
+            android:layout_marginLeft="46dp"
+            android:layout_marginBottom="23dp"/>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:id="@+id/pic"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginBottom="23dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
